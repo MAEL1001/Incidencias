@@ -1,0 +1,66 @@
+.trabajadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+    .acerca {
+        margin-top: 50px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            margin-bottom: 20px;
+            justify-self: center;
+            align-self: center;
+            color: #e7a61a;
+        }
+
+        p {
+            align-self: flex-start;
+            justify-self: center;
+            text-align: justify;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+    }
+
+    .team-grid {
+        display: grid;
+        grid-auto-rows: 250px;
+        grid-template-columns: repeat(4, 250px);
+        grid-gap: 5px;
+        margin-bottom: 20px;
+
+        div {
+            border: solid 2px #e7a61a;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            &:hover img {
+                transform: scale(1.2);
+                cursor: pointer;
+            }
+        }
+
+        .team-grid-items-5 {
+            background-color: #e7a61a;
+            color: #e3f2fd;
+            padding: 15px;
+            grid-row: span 2;
+            text-align: justify;
+
+            p {
+                margin-top: 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,108 @@
+footer {
+    background-color: #020402;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #e3f2fd;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 50px;
+
+    >div {
+        margin-top: 40px;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px #e7a61a;
+        flex-wrap: wrap;
+
+        >div {
+            width: 450px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+
+    .footer-items-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 15px;
+
+        h5 {
+            font-size: 18px;
+            text-align: start;
+            margin-bottom: 20px;
+        }
+
+        h6 {
+            font-size: 14px;
+        }
+
+        a {
+            color: #e3f2fd;
+            margin-left: 10px;
+        }
+    }
+
+    .footer-items-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+        color: #e3f2fd;
+        padding: 20px;
+
+        h5 {
+            font-size: 18px;
+            text-align: start;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    .redes {
+        text-align: center;
+
+        i {
+            color: #e3f2fd;
+            margin-left: 15px;
+            font-size: 30px;
+        }
+    }
+
+    iframe {
+        height: 240px;
+        width: 100%;
+    }
+
+    .desarrollador {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        border: none;
+
+        >div {
+            width: 100%;
+        }
+
+        img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.FQAS-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .introduccionFQAS {
+        width: 80%;
+        margin-top: 50px;
+
+        h1 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #e7a61a;
+        }
+
+        p {
+            letter-spacing: 2px;
+            text-align: justify;
+        }
+    }
+
+    .accordion {
+        width: 80%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        position: relative;
+    }
+
+    .boton-flotante {
+        position: fixed;
+        margin-bottom: 5px;
+        right: 0;
+        width: 155px;
+        height: 60px;
+        background-color: #020402;
+        border-radius: 5px;
+        z-index: 99;
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            color: #e7a61a;
+
+            h6 {
+                margin-top: 20px;
+            }
+
+            &:hover {
+                text-decoration: underline;
+                transition: 0.5s;
+            }
+        }
+    }
+}
