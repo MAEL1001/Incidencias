@@ -15,7 +15,6 @@
         color: #e3f2fd;
         box-shadow: 0 5px 10px #020402;
     }
-
     .registro-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -24,12 +23,12 @@
         width: 90%;
         grid-gap: 20px;
         border: solid 2px #e7a61a;
-            h3 {
-                margin-bottom: 25px;
-            }
 
-            p {}
+        h3 {
+            margin-bottom: 25px;
         }
+
+        p {}
 
         .registro-grid-items-2 {
             padding: 10px;
