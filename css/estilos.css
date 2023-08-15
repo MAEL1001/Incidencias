@@ -15,10 +15,14 @@ header .navbar {
     background-color: #e3f2fd; }
     header .navbar div .navbar-toggler:hover {
       background-color: #e7a61a; }
-  header .navbar div div ul li a {
-    color: #e3f2fd; }
-    header .navbar div div ul li a:hover {
-      text-decoration: underline 2px #e7a61a; }
+  header .navbar div div {
+    display: flex;
+    justify-content: end;
+    margin-right: 15px; }
+    header .navbar div div ul li a {
+      color: #e3f2fd; }
+      header .navbar div div ul li a:hover {
+        text-decoration: underline 2px #e7a61a; }
 
 footer {
   background-color: #020402;

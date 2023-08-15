@@ -11,11 +11,11 @@ header{
                 &:hover{
                     background-color: #e7a61a;
                 }
-                span{
-                    
-                }
             }
             div{
+                display: flex;
+                justify-content: end;
+                margin-right: 15px;
                 ul{
                     li{
                         a{
