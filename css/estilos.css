@@ -6,23 +6,30 @@
 body {
   background-color: #e3f2fd !important; }
 
-header .navbar {
-  background-color: #020402 !important; }
-  header .navbar div .navbar-brand {
-    color: #e3f2fd;
-    text-decoration: line-through; }
-  header .navbar div .navbar-toggler {
-    background-color: #e3f2fd; }
-    header .navbar div .navbar-toggler:hover {
-      background-color: #e7a61a; }
-  header .navbar div div {
-    display: flex;
-    justify-content: end;
-    margin-right: 15px; }
-    header .navbar div div ul li a {
-      color: #e3f2fd; }
-      header .navbar div div ul li a:hover {
-        text-decoration: underline 2px #e7a61a; }
+header {
+  top: 0;
+  position: sticky;
+  z-index: 1; }
+  header .navbar {
+    background-color: #020402 !important; }
+    header .navbar div .navbar-brand {
+      color: #e3f2fd !important;
+      text-decoration: line-through 2px;
+      text-transform: uppercase; }
+      header .navbar div .navbar-brand:hover {
+        color: #e7a61a !important; }
+    header .navbar div .navbar-toggler {
+      background-color: #e3f2fd; }
+      header .navbar div .navbar-toggler:hover {
+        background-color: #e7a61a; }
+    header .navbar div div {
+      display: flex;
+      justify-content: end;
+      margin-right: 15px; }
+      header .navbar div div ul li a {
+        color: #e3f2fd; }
+        header .navbar div div ul li a:hover {
+          color: #e7a61a !important; }
 
 footer {
   background-color: #020402;
