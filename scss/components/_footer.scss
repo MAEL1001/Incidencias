@@ -1,10 +1,10 @@
 footer {
-    background-color: #020402;
+    background-color: $color-secundario;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: #e3f2fd;
+    color: $color-primario;
     padding: 20px;
     flex-wrap: wrap;
     position: relative;
@@ -16,7 +16,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        border: solid 1px #e7a61a;
+        border: solid 1px $color-terciario;
         flex-wrap: wrap;
 
         >div {
@@ -47,7 +47,7 @@ footer {
         }
 
         a {
-            color: #e3f2fd;
+            color: $color-primario;
             margin-left: 10px;
         }
     }
@@ -57,7 +57,7 @@ footer {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: start;
-        color: #e3f2fd;
+        color: $color-primario;
         padding: 20px;
 
         h5 {
@@ -74,7 +74,7 @@ footer {
         text-align: center;
 
         i {
-            color: #e3f2fd;
+            color: $color-primario;
             margin-left: 15px;
             font-size: 30px;
         }

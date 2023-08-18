@@ -17,7 +17,7 @@
             margin-bottom: 20px;
             justify-self: center;
             align-self: center;
-            color: #e7a61a;
+            color: $color-terciario;
         }
 
         p {
@@ -37,7 +37,7 @@
         margin-bottom: 20px;
 
         div {
-            border: solid 2px #e7a61a;
+            border: solid 2px $color-terciario;
 
             img {
                 width: 100%;
@@ -52,8 +52,8 @@
         }
 
         .team-grid-items-5 {
-            background-color: #e7a61a;
-            color: #e3f2fd;
+            background-color: $color-terciario;
+            color: $color-primario;
             padding: 15px;
             grid-row: span 2;
             text-align: justify;

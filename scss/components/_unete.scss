@@ -1,5 +1,5 @@
 .form-contenedor {
-    height: auto;
+    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,25 +8,23 @@
     margin-bottom: 50px;
 
     .formulario-unete {
-        height: 90vh;
         width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        border: solid 2px #e7a61a;
-        background-color: #fffae3;
+        background-color: $color-terciario;
         border-radius: 6px;
 
         .datos {
             width: 350px;
             height: 55px;
             border: 0px;
-            border-bottom: 2px solid #e7a61a;
+            border-bottom: 2px solid $color-secundario;
             outline: 0px;
             font-size: 18px;
-            color: #020402;
-            background-color: #fffae3;
+            color: $color-secundario;
+            background-color: $color-terciario;
             margin-bottom: 0px;
         }
 
@@ -34,20 +32,20 @@
             border: 0px;
             width: 350px;
             height: 55px;
-            border-bottom: 2px solid #e7a61a;
-            background-color: #fffae3;
+            background-color: $color-terciario;
             border-radius: 0px;
             font-size: 18px;
             outline: 0px;
+            color: $color-secundario;
         }
 
         .enviar-fomr {
             width: 350px;
             height: 50px;
-            background-color: #020402;
+            background-color: $color-secundario;
             border: 0px;
             border-radius: 5px;
-            color: #e3f2fd;
+            color: $color-primario;
             font-size: 25px;
         }
 
@@ -58,15 +56,16 @@
                 margin-left: 20px;
                 font-size: 20px;
                 padding: 10px;
+                color: $color-secundario;
             }
         }
 
         .tipo-user option {
             width: 350px;
             height: 55px;
-            color: #020402;
+            color: $color-terciario;
             border: 0px;
-            border-bottom: 2px solid #e7a61a;
+            border-bottom: 2px solid $color-terciario;
             outline: 0px;
         }
 
@@ -76,8 +75,8 @@
         }
 
         .enviar-fomr:hover {
-            background-color: #e3f2fd;
-            color: #020402;
+            background-color: $color-primario;
+            color: $color-secundario;
         }
     }
 }

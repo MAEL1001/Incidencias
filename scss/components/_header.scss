@@ -1,22 +1,22 @@
 header{
     top: 0;
     position: sticky;
-    z-index: 1;
+    z-index: 10;
     .navbar{
-        background-color: #020402 !important;
+        background-color: $color-secundario !important;
         div{
             .navbar-brand{
-                color: #e3f2fd !important;
+                color: $color-primario !important;
                 text-decoration: line-through 2px;
                 text-transform: uppercase;
                 &:hover{
-                    color: #e7a61a !important;
+                    color: $color-terciario !important;
                 }
             }
             .navbar-toggler{
-                background-color: #e3f2fd;
+                background-color: $color-primario;
                 &:hover{
-                    background-color: #e7a61a;
+                    background-color: $color-terciario;
                 }
             }
             div{
@@ -26,9 +26,9 @@ header{
                 ul{
                     li{
                         a{
-                            color: #e3f2fd ;
+                            color: $color-primario ;
                             &:hover{
-                                color: #e7a61a !important;
+                                color: $color-terciario !important;
                             }
                         }
                     }
