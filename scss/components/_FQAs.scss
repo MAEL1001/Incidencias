@@ -36,19 +36,14 @@
         background-color: $color-secundario;
         border-radius: 5px;
         z-index: 9;
-
+        
         a {
             text-align: center;
             text-decoration: none;
             color: $color-terciario;
-
+            transition: ease-out 2s;
             h6 {
                 margin-top: 20px;
-            }
-
-            &:hover {
-                text-decoration: underline;
-                transition: 0.5s;
             }
         }
     }

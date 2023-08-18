@@ -1,3 +1,20 @@
+.contenido-unete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    h1{
+        color:$color-terciario;
+    }
+    p{
+        width: 80%;
+        font-size: nth($tamanio-text, 6);
+        line-height: 1.8;
+    }
+
+}
+
 .form-contenedor {
     height: 90vh;
     width: 100%;
@@ -6,6 +23,7 @@
     align-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    
 
     .formulario-unete {
         width: 50%;
@@ -26,6 +44,7 @@
             color: $color-secundario;
             background-color: $color-terciario;
             margin-bottom: 0px;
+            
         }
 
         select {
@@ -37,6 +56,7 @@
             font-size: nth($tamanio-text, 6);
             outline: 0px;
             color: $color-secundario;
+            border-bottom: 2px solid $color-secundario;
         }
 
         .enviar-fomr {
@@ -65,13 +85,14 @@
             height: 55px;
             color: $color-terciario;
             border: 0px;
-            border-bottom: 2px solid $color-terciario;
+            border-bottom: 2px solid $color-primario;
             outline: 0px;
         }
 
         div i {
             font-size: nth($tamanio-text, 8 );
             margin-right: 5px;
+            color: $color-secundario;
         }
 
         .enviar-fomr:hover {
