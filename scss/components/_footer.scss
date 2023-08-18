@@ -37,13 +37,13 @@ footer {
         padding: 15px;
 
         h5 {
-            font-size: 18px;
+            font-size: nth($tamanio-text, 4);
             text-align: start;
             margin-bottom: 20px;
         }
 
         h6 {
-            font-size: 14px;
+            font-size: nth($tamanio-text, 3);
         }
 
         a {
@@ -61,12 +61,12 @@ footer {
         padding: 20px;
 
         h5 {
-            font-size: 18px;
+            font-size: nth($tamanio-text, 6);
             text-align: start;
         }
 
         p {
-            font-size: 14px;
+            font-size: nth($tamanio-text, 3);
         }
     }
 
@@ -76,7 +76,7 @@ footer {
         i {
             color: $color-primario;
             margin-left: 15px;
-            font-size: 30px;
+            font-size: nth($tamanio-text, 8);
         }
     }
 

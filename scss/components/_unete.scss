@@ -22,7 +22,7 @@
             border: 0px;
             border-bottom: 2px solid $color-secundario;
             outline: 0px;
-            font-size: 18px;
+            font-size: nth($tamanio-text, 6);
             color: $color-secundario;
             background-color: $color-terciario;
             margin-bottom: 0px;
@@ -34,7 +34,7 @@
             height: 55px;
             background-color: $color-terciario;
             border-radius: 0px;
-            font-size: 18px;
+            font-size: nth($tamanio-text, 6);
             outline: 0px;
             color: $color-secundario;
         }
@@ -46,7 +46,7 @@
             border: 0px;
             border-radius: 5px;
             color: $color-primario;
-            font-size: 25px;
+            font-size: nth($tamanio-text, 8 );
         }
 
         .genero-user {
@@ -54,7 +54,7 @@
 
             label {
                 margin-left: 20px;
-                font-size: 20px;
+                font-size: nth($tamanio-text, 7 );
                 padding: 10px;
                 color: $color-secundario;
             }
@@ -70,7 +70,7 @@
         }
 
         div i {
-            font-size: 25px;
+            font-size: nth($tamanio-text, 8 );
             margin-right: 5px;
         }
 

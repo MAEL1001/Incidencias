@@ -64,7 +64,7 @@ footer {
     align-items: start;
     padding: 15px; }
     footer .footer-items-1 h5 {
-      font-size: 18px;
+      font-size: 15px;
       text-align: start;
       margin-bottom: 20px; }
     footer .footer-items-1 h6 {
@@ -89,7 +89,7 @@ footer {
     footer .redes i {
       color: #e3f2fd;
       margin-left: 15px;
-      font-size: 30px; }
+      font-size: 25px; }
   footer iframe {
     height: 240px;
     width: 100%; }
@@ -195,8 +195,7 @@ footer {
       text-decoration: none;
       padding: 15px;
       background-color: #020402;
-      cursor: pointer;
-      z-index: 0; }
+      cursor: pointer; }
 
 /* clientes*/
 .clientes {
@@ -216,7 +215,7 @@ footer {
       font-size: 35px;
       color: #e7a61a; }
     .clientes .encabezado p {
-      font-size: 17px;
+      font-size: 16px;
       text-align: justify;
       letter-spacing: 2px; }
   .clientes .contenedor-cards {
@@ -301,12 +300,12 @@ footer {
       font-size: 35px;
       color: #e7a61a; }
     .contacto .container-form .info-fomr p {
-      font-size: 17px;
+      font-size: 16px;
       line-height: 1.6;
       margin-bottom: 30px;
       text-align: justify; }
     .contacto .container-form .info-fomr span {
-      font-size: 17px;
+      font-size: 16px;
       display: inline-block;
       text-decoration: none;
       width: 100%;
@@ -332,7 +331,7 @@ footer {
       max-height: 150px; }
     .contacto .container-form form .btn-enviar {
       padding: 15px;
-      font-size: 16px;
+      font-size: 15px;
       border: none;
       outline: none;
       background: #020402;
@@ -530,7 +529,7 @@ footer {
     height: 60px;
     background-color: #020402;
     border-radius: 5px;
-    z-index: 99; }
+    z-index: 9; }
     .FQAS-section .boton-flotante a {
       text-align: center;
       text-decoration: none;

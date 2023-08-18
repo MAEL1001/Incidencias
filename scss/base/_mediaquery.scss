@@ -1,7 +1,7 @@
 @media (max-width: 1237px) {
     /*INDEX*/
     .about div h2 {
-        font-size: 20px;
+        font-size: nth($tamanio-text, 7 );
         margin-bottom: 0px;
     }
     .about div p {
@@ -14,7 +14,7 @@
         margin-bottom: 15px;
     }
     .productos .tarjeta h3{
-        font-size: 40px;
+        font-size: nth($tamanio-text, 10 );
     }
 }
 @media (max-width: 971px){
@@ -63,7 +63,7 @@
     }
     /*--Productos--*/
     .productospage .registro-grid,.asesoria-grid,.informes-grid h3 {
-        font-size: 18px;
+        font-size: nth($tamanio-text, 6 );
         margin-bottom: 0px;
         font-weight: 700;
     }
@@ -115,7 +115,7 @@
         position: relative;
     }
     .clientes .contenedor-cards .card .atras {
-        font-size: 14px;
+        font-size: nth($tamanio-text, 3);
     }
     .productos {
         height: auto;
@@ -149,17 +149,17 @@
         width: 200px;
         height: 55px;
         border-bottom: 1px solid #e7a61a;
-        font-size: 14px;
+        font-size: nth($tamanio-text, 3 );
     }
     .form-contenedor .formulario-unete .genero-user label  {
-        font-size: 14px;
+        font-size: nth($tamanio-text, 3 );
         margin-left: 5px;
         padding: 5px;
     }
     .form-contenedor .formulario-unete .enviar-fomr {
         width: 250px;
         height: 50px;
-        font-size: 18px;
+        font-size: nth($tamanio-text, 6 );
     }
     .productospage .registro-grid {
         grid-template-columns: repeat(1, 1fr);
@@ -193,10 +193,10 @@
     .form-contenedor .formulario-unete .enviar-fomr{
         width: 150px;
         height: 50px;
-        font-size: 18px;
+        font-size: nth($tamanio-text, 6);
     }
     .form-contenedor .formulario-unete .genero-user label{
-        font-size: 12px;
+        font-size: nth($tamanio-text, 2 );
         margin-left: 5px;
         padding: 3px;
     }
@@ -206,26 +206,26 @@
     .form-contenedor .formulario-unete .datos{
         width: 100px;
         height: 55px;
-        font-size: 10px;
+        font-size: nth($tamanio-text, 1 );
     }
     .form-contenedor .formulario-unete select {
         width: 100px;
         height: 55px;
         border-bottom: 1px solid #e7a61a;
-        font-size: 10px;
+        font-size: nth($tamanio-text, 1 );
     }
     .form-contenedor .formulario-unete .genero-user label input {
         height: 12px;
     }
     .form-contenedor .formulario-unete .genero-user label  {
-        font-size: 10px;
+        font-size: nth($tamanio-text, 1 );
         margin-left: none;
         padding: none;
     }
     .form-contenedor .formulario-unete .enviar-fomr {
         width: 150px;
         height: 50px;
-        font-size: 14px;
+        font-size: nth($tamanio-text, 3);
     }
 }
 

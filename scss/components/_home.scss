@@ -105,7 +105,6 @@
             padding: 15px;
             background-color: $color-secundario;
             cursor: pointer;
-            z-index: 0;
         }
     }
 }
@@ -127,12 +126,12 @@
         text-align: justify;
 
         h2 {
-            font-size: 35px;
+            font-size: nth($tamanio-text, 9);
             color: $color-terciario;
         }
 
         p {
-            font-size: 17px;
+            font-size: nth($tamanio-text, 5);
             text-align: justify;
             letter-spacing: 2px;
         }
@@ -193,7 +192,7 @@
                 box-shadow: 0px 5px 10px #000;
 
                 h4 {
-                    font-size: 25px;
+                    font-size: nth($tamanio-text, 8);
                     margin-top: 15px;
                     letter-spacing: 2px;
                 }
@@ -244,19 +243,19 @@
             h2 {
                 text-align: center;
                 margin-bottom: 15px;
-                font-size: 35px;
+                font-size: nth($tamanio-text, 9);
                 color: $color-terciario;
             }
 
             p {
-                font-size: 17px;
+                font-size: nth($tamanio-text, 5);
                 line-height: 1.6;
                 margin-bottom: 30px;
                 text-align: justify;
             }
 
             span {
-                font-size: 17px;
+                font-size: nth($tamanio-text, 5);
                 display: inline-block;
                 text-decoration: none;
                 width: 100%;
@@ -276,7 +275,7 @@
             textarea {
                 width: 100%;
                 padding: 15px 10px;
-                font-size: 15px;
+                font-size: nth($tamanio-text, 4);
                 border: 1px solid $color-secundario;
                 margin-bottom: 20px;
                 border-radius: 3px;
@@ -292,7 +291,7 @@
 
             .btn-enviar {
                 padding: 15px;
-                font-size: 16px;
+                font-size: nth($tamanio-text, 4);
                 border: none;
                 outline: none;
                 background: $color-secundario;
