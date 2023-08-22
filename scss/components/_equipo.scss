@@ -8,10 +8,7 @@
     .acerca {
         margin-top: 50px;
         width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+       @extend %flex-colum;
 
         h1 {
             margin-bottom: 20px;

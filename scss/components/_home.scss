@@ -1,9 +1,7 @@
 .hero {
     height: 90vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex;
     background-image: url(../img/obrero.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -218,9 +216,7 @@
 /* contatos*/
 .contacto {
     height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   @extend %flex;
     margin-top: 50px;
     margin-bottom: 50px;
     position: relative;

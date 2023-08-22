@@ -1,8 +1,5 @@
 .productospage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-colum;
 
     h1 {
         margin-top: 50px;

@@ -13,18 +13,14 @@ footer {
     >div {
         margin-top: 40px;
         width: 90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flex;
         border: solid 1px $color-terciario;
         flex-wrap: wrap;
 
         >div {
             width: 450px;
             height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %flex;
             flex-wrap: wrap;
         }
     }
@@ -86,10 +82,7 @@ footer {
     }
 
     .desarrollador {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @extend %flex-colum;
         margin-top: 10px;
         border: none;
 

@@ -1,8 +1,5 @@
 .contenido-unete{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   @extend %flex-colum;
     margin-top: 15px;
     h1{
         color:$color-terciario;
@@ -18,9 +15,7 @@
 .form-contenedor {
     height: 90vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    @extend %flex;
     margin-top: 50px;
     margin-bottom: 50px;
     
