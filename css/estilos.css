@@ -125,6 +125,10 @@ footer {
 /*nosotros*/
 .about {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   height: 90vh;
@@ -157,6 +161,7 @@ footer {
 /*productos*/
 .productos {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   height: 90vh; }
@@ -216,6 +221,7 @@ footer {
       letter-spacing: 2px; }
   .clientes .contenedor-cards {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 90%; }

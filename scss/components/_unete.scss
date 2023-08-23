@@ -22,10 +22,7 @@
 
     .formulario-unete {
         width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+        @include flex-var(flex,column,space-evenly,center);
         background-color: $color-terciario;
         border-radius: 6px;
 

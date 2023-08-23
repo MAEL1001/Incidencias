@@ -1,10 +1,6 @@
 .trabajadores {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    
-
+    @include flex-var(flex,column,space-evenly,center);
+   
     .acerca {
         margin-top: 50px;
         width: 80%;
