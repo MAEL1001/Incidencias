@@ -82,10 +82,9 @@ footer {
     }
 
     .desarrollador {
-        @extend %flex-colum;
+        @include flex-var(flex,column,center,center);
         margin-top: 10px;
         border: none;
-
         >div {
             width: 100%;
         }

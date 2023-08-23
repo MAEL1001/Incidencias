@@ -1,5 +1,5 @@
 .contenido-unete{
-   @extend %flex-colum;
+    @include flex-var(flex,column,center,center);
     margin-top: 15px;
     h1{
         color:$color-terciario;

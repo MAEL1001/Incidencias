@@ -1,5 +1,5 @@
 .FQAS-section {
-    @extend %flex-colum;
+    @include flex-var(flex,column,center,center);
 
     .introduccionFQAS {
         width: 80%;

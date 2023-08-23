@@ -1,5 +1,5 @@
 .productospage {
-    @extend %flex-colum;
+    @include flex-var(flex,column,center,center);
 
     h1 {
         margin-top: 50px;
